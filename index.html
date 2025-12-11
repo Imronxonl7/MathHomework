@@ -71,7 +71,15 @@
             padding: 10px;
 
         }
-
+        button {
+            border-radius: 20px;
+            border: 1px solid rgb(133, 132, 132);
+            transition: 0.3s ease-in-out;
+        }
+        button:hover{
+            box-shadow: 2px 6px 20px rgb(44, 44, 44);
+        }
+        
     </style>
 
 </head>
@@ -80,7 +88,7 @@
 
     <h1 style="text-align: center;">Homework</h1>
 
-    <button id="theme-toggle">Toggle Dark / Light Mode</button>
+    <button id="theme-toggle"> Dark / Light Mode</button>
 
     <table>
 
@@ -88,9 +96,9 @@
 
             <tr>
 
-                <th>Examples</th>
+                <th class="head">Examples</th>
 
-                <th>Completed</th>
+                <th class="head">Completed</th>
 
             </tr>
 
